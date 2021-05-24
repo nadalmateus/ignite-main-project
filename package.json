@@ -5,7 +5,7 @@
   "repository": "https://github.com/nadalmateus/ignite-main-project.git",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/server.ts",
+    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules source/server.ts",
     "commit": "cz",
     "lint": "eslint \"src/**/*\" --fix",
     "prepare": "husky install"
