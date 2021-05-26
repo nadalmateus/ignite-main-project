@@ -1,9 +1,9 @@
 import express from 'express'
-import { categoriesRoutes } from './route/categories.route'
+import { categoryRoute } from './route/categoryRoute'
 
 const app = express()
 app.use(express.json())
-app.use('/categories', categoriesRoutes)
+app.use('/categories', categoryRoute)
 
 app.listen(3333, () =>
   console.log('[ON]server running on http://localhost:3333/')
