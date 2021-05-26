@@ -1,5 +1,5 @@
 import express from 'express'
-import { categoryRoute } from './route/categoryRoute'
+import { categoryRoute } from './routes/categoryRoute'
 
 const app = express()
 app.use(express.json())
