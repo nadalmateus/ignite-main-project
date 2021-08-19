@@ -7,6 +7,9 @@ app.use(express.json());
 
 app.use(router);
 
+
+console.log("Test");
+
 app.listen(3333, () =>
 	console.log('[UP!] Server running on http://localhost:3333/')
 );
